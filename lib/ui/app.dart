@@ -15,6 +15,7 @@ import 'package:red_egresados/ui/pages/authentication/auth_page.dart';
 import 'package:red_egresados/ui/pages/content/content_page.dart';
 import 'package:red_egresados/ui/theme/theme.dart';
 
+
 class App extends StatefulWidget {
   const App({Key? key}) : super(key: key);
 

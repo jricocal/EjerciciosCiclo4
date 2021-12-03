@@ -22,6 +22,7 @@ class AuthController extends GetxController {
 
   // Getters
   bool get authenticated => _authenticated.value;
+  User? get currentUser => _currentUser.value;
 
   AuthManagement get manager => _manager;
 }

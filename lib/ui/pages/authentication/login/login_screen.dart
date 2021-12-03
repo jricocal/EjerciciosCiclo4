@@ -4,6 +4,10 @@ import 'package:get/get.dart';
 import 'package:red_egresados/domain/use_cases/controllers/authentication.dart';
 import 'package:red_egresados/domain/use_cases/controllers/connectivity.dart';
 
+import 'package:flutter_signin_button/button_list.dart';
+import 'package:flutter_signin_button/button_view.dart';
+
+
 class LoginScreen extends StatefulWidget {
   final VoidCallback onViewSwitch;
 
